@@ -1,0 +1,4 @@
+docker images
+docker build -t imagen-gerardo-server-php .
+docker run -d --lm20003-server-php -p 8080:80 -v .:var/www/html imagen-gerardo-server-php
+
